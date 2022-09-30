@@ -1,0 +1,232 @@
+/* for responsive min-width 1200px Start here */
+@media (min-width:1200px)
+{
+
+}
+/* for responsive min-width 1440px End here */
+
+/* for media min-width 992px and max-width:1199px start here */
+@media (max-width:1199px)
+{
+    .header_section .banner_section h2
+    {
+        font-size: 22px;
+    }
+    .body_section .left_side_body ul.left_menu_1 li i, .body_section .left_side_body ul.left_menu_1 li span
+    {
+        padding: 12px;
+        font-size: 15px;
+    }
+    .body_section .college_cards .card .card-head .overlay h3
+    {
+        font-size: 18px;
+    }
+}
+/* for media min-width 992px and max-width:1199px end here */
+
+/* for media min-width 768px and max-width:991px start here */
+@media (max-width:991px)
+{
+    .header_section .bottom_header_menu ul li a
+    {
+        font-size: 14px;
+        padding: 10px 6px;
+    }
+    .body_section .right_side_body .row.course_selection ul
+    {
+        padding-right: 110px;
+    }
+    .body_section .right_side_body .row.course_selection ul li a
+    {
+        font-size: 12px;
+        padding: 2px 10px;
+    }
+    .body_section .right_side_body .row.course_selection ul li {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+    .body_section .college_cards > .col-md-6
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer_section .footer_top h5
+    {
+        font-size: 16px;
+    }
+    .footer_section .footer_top h5 + p
+    {
+        font-size: 13px;
+    }
+    .footer_section .footer_top .social
+    {
+        padding: 0;    
+    }
+    .footer_section .footer_top .social li
+    {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer_section .footer_top .social li i
+    {
+        font-size: 14px;
+    }
+}
+/* for media min-width 768px and max-width:991px end here */
+
+/* for media min-width 540px and max-width:767px start here */
+@media (max-width:767px)
+{
+    .header-section h1 
+    {
+        font-size: 22px;
+        padding: 0 18px;
+    }
+    .header-section.bg-img {
+        height: 39vh;
+    }
+    .header-section p {
+        line-height: 16px;
+        padding: 0 18px;
+    }
+    .header-section .signup-now {
+        padding: 8px;
+        font-size: 12px;
+        margin: 0 16px;
+    }
+    .header-section .hero-img {
+        display: none;
+    }
+    .square-img-section {
+        top: calc(34vh - -20px);
+        left: 0px;
+    }
+    
+}
+/* for media min-width 540px and max-width:767px end here */
+
+/* for media min-width 425px and max-width:539px start here */
+@media (max-width:539px)
+{
+    .header-section.bg-img {
+        height: auto;
+        background-size: cover;
+    }
+    .header-section .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-light .navbar-toggler
+    {
+        font-size: 13px;
+    padding: 4px 6px;
+    }
+    .header-section .navbar-nav li {
+        margin-right: 8px;
+    }
+    .header-section .navbar-nav .login a, .header-section .navbar-nav .signup a
+    {
+        font-size: 13px;
+    }
+    .header-section h1 
+    {
+        font-size: 16px;
+    }
+    .header-section p 
+    {
+        font-size: 15px;
+    }
+    .header-section.bg-img
+    {
+        height: 50vh;
+    }
+    .square-img-section
+    {
+        top: calc(34vh - -74px);
+    }
+    .body-section h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .body-section p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .body-section .rating {
+        font-size: 12px;
+    }
+    .body-section .color
+    {
+        padding: 0 6px;
+    }
+    .body-section .color .col-md-3
+    {
+        padding: 0 6px;
+    }
+    .custome-radio label
+    {
+        padding: 7px;
+        margin-top: 4px;
+    }
+    .custome-radio input:checked + label:after {
+        width: 10px;
+        height: 10px;
+    }
+    .body-section .single-radio .media-body {
+        margin-left: 10px;
+    }
+    .body-section .check-mark li
+    {
+        font-size: 13px;
+    }
+    .body-section .check-mark li i
+    {
+        padding: 4px;
+        font-size: 10px;
+    }
+    .body-section .add-to-bag {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+}
+/* for media min-width 425px and max-width:539px end here */
+
+/* for media min-width 375px and max-width:424px start here */
+@media (max-width:424px)
+{
+    .header-section.bg-img {
+        height: 60vh;
+    }
+    .square-img-section {
+        top: calc(34vh - -125px);
+    }
+    .body-section .single-radio .media-body div {
+        font-size: 11px;
+    }
+    .body-section .single-radio .media-body div span {
+        font-size: 10px;
+        padding: 4px;
+    }
+    .body-section .color .col-md-3
+    {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+}
+/* for media min-width 375px and max-width:424px end here */
+
+/* for media min-width 320px and max-width:374px start here */
+@media (min-width:320px) and (max-width:374px)
+{
+    
+}
+/* for media min-width 320px and max-width:374px end here */
+
+/* for media max-width:319px start here */
+@media (max-width:319px)
+{
+    
+}
+/* for media max-width:319px end here */
